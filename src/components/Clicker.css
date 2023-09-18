@@ -1,0 +1,25 @@
+.clicker {
+    margin: 0px 30px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    float: right;
+    width: 150px;
+    height: 33px;
+    background-color: #272D4E;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+    font-size: 16px;
+    font-weight: 300;
+
+    &:hover {
+        background-color: #0a122d; 
+     }
+}
+
+.text{
+    color: white;
+}
