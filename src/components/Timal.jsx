@@ -13,10 +13,17 @@ export default function Optimal({ data, input }) {
                         if (input > 0) {
                             return (
                                 <>
+
+
+
                                     <ul className="custom-list">
                                         <li className="list-item">
                                             <span className="label">은행이름:</span>
                                             <span className="value">{item.bank_name}</span>
+                                        </li>
+                                        <li className="list-item">
+                                            <span className="label">상품명:</span>
+                                            <span className="value">{item.item_name}</span>
                                         </li>
                                         <li className="list-item">
                                             <span className="label">기한:</span>
@@ -61,6 +68,10 @@ export default function Optimal({ data, input }) {
                                         <li className="list-item">
                                             <span className="label">은행이름:</span>
                                             <span className="value">{item.bank_name}</span>
+                                        </li>
+                                        <li className="list-item">
+                                            <span className="label">상품명:</span>
+                                            <span className="value">{item.item_name}</span>
                                         </li>
                                         <li className="list-item">
                                             <span className="label">기한:</span>
