@@ -33,8 +33,8 @@
 
 .link1 {
     display: inline-block; /* 인라인 블록 요소로 표시하여 왼쪽 배치 */
-    border: 1px solid #666; /* 1px 두께의 실선 경계선 설정 */
-    color: #666; /* 텍스트 색상 설정 */
+    border: 1px solid #777; /* 1px 두께의 실선 경계선 설정 */
+    color: #777; /* 텍스트 색상 설정 */
     padding: 5px 20px; /* 패딩 설정 (상하 5px, 좌우 15px) */
     text-decoration: none; /* 밑줄 제거 */
     border-radius: 20px; /* 둥근 모서리 설정 */

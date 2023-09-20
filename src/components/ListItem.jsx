@@ -27,17 +27,17 @@ export default function ListItem({ id, bank_name, item_name, interest_rate, meth
 
 
                     <div className="show">
+                        <hr id = "color"/>
+                        <br/>
                         <div>기간,최대한도, 가입방법,가입대상, 우대조건</div>
                         <div>가입 방법 : {method}</div>
                         <div>가입 대상 : {who}</div>
                         <br/>
-                        <div className="link2">
                             {link !== null && (
-                                <div>
-                                    <a href={link} target="_blank">자세히 보기</a>
+                                <div >
+                                    <a href={link} target="_blank" className="link2">자세히 보기</a>
                                 </div>
                             )}
-                        </div>
                     </div>
                 </div>
             }

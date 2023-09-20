@@ -1,6 +1,6 @@
 import "./Header.css"
 
-// const logoPath = "/logo.png"
+const logoPath = "/logo.png"
 
 export default function Header() {
     return (
@@ -8,9 +8,9 @@ export default function Header() {
             <nav>
                 <a href="#">
                     <div>
-                        {/* <img src={logoPath}
+                        {/**/<img src={logoPath}
                             alt="Hanium Logo"
-                            width="160px" /> */}
+                            width="160px" />}
                     </div>
                 </a>
                 <ul>

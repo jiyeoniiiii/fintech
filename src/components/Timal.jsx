@@ -35,11 +35,11 @@ export default function Optimal({ data, input }) {
                                             <span className="value">{item.moneyLoe}원</span>
                                         </li>
                                     </ul>
-                                    <div className="link1">
+                                    <div>
                                         {
                                             item.link !== null && (
                                                 <div >
-                                                    <a href={item.link} target="_blank">자세히 보기</a>
+                                                    <a href={item.link} target="_blank" className="link1">자세히 보기</a>
                                                 </div>
                                             )
                                         }
