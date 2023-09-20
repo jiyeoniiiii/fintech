@@ -15,7 +15,7 @@
 }
 
 /* 데이터 필드와 값 사이의 가로 배치 */
-.list-item > div {
+.list-item>div {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,5 +23,26 @@
 
 /* 각 데이터 필드 스타일 */
 .value {
-    margin-left: 10px; /* 데이터 필드와 값 사이의 간격을 조절 */
+    margin-left: 10px;
+    /* 데이터 필드와 값 사이의 간격을 조절 */
+}
+
+#color{
+    background-color: #aeaeae;
+}
+
+.link1 {
+    display: inline-block; /* 인라인 블록 요소로 표시하여 왼쪽 배치 */
+    border: 1px solid #666; /* 1px 두께의 실선 경계선 설정 */
+    color: #666; /* 텍스트 색상 설정 */
+    padding: 5px 20px; /* 패딩 설정 (상하 5px, 좌우 15px) */
+    text-decoration: none; /* 밑줄 제거 */
+    border-radius: 20px; /* 둥근 모서리 설정 */
+    margin-left: 80%; /* 왼쪽 여백을 80%로 설정하여 오른쪽 배치 */
+}
+
+.link1:hover {
+    background-color: #888; /* 호버 상태일 때 배경색 변경 */
+    color: #fff; /* 호버 상태일 때 텍스트 색상 변경 */
+    cursor: pointer; /* 호버 상태일 때 포인터 커서로 변경 */
 }

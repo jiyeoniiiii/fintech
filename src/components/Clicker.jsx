@@ -21,16 +21,18 @@ export default function Clicker({ input, value, firstItem, secondItem }) {
 
 
     return (
-        <div className="clicker-container">
-            <button className="clicker" onClick={handleButtonClick}>
+        <>
+            <div className="clicker" onClick={handleButtonClick}>
                 <p className="text">금융상품 검색</p>
-            </button>
-            <br/>
-            <br/>
-            
-            {showClick && (
-                <Show input={amount} firstItem={item} secondItem={secondItem} />
-            )}
-        </div>
+            </div>
+
+
+            <div className="clicker-container">
+
+                {showClick && (
+                    <Show input={amount} firstItem={item} secondItem={secondItem} />
+                )}
+            </div>
+        </>
     );
 }

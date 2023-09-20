@@ -1,7 +1,8 @@
 .clicker {
-    margin: 0px 30px;
+
+    margin: 0rem 12rem;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     float: right;
     width: 150px;
@@ -16,10 +17,14 @@
     font-weight: 300;
 
     &:hover {
-        background-color: #0a122d; 
-     }
+        background-color: #0a122d;
+    }
 }
 
-.text{
+.clicker-container {
+    padding: 4rem 10rem;
+}
+
+.text {
     color: white;
 }
